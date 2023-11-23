@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 835px;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFA500; /* оранжевий колір */
+    color: black; /* чорний колір тексту */
+}
+
+.contact-info {
+  
+    max-width: 600px;
+    margin-left: 600px;
+    margin-top: 150px ;
+    padding: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #FFA500; /* оранжевий колір */
+    color: black; /* чорний колір тексту */
+}
+
+.contact-info a {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #333;
+    color: white; /* білий колір тексту */
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.contact-info a:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white; /* білий колір тексту */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
